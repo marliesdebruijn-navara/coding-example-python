@@ -51,7 +51,6 @@ def move(i,j,position):
         else:
           return move(i,j+1,1)
     case 2: #v i+1
-#      return True
       if i == h-1: #move bottom out of map
         return True
       else: #move up if not an obstacle 
@@ -60,7 +59,6 @@ def move(i,j,position):
         else:
           return move(i+1,j,2)
     case 3: #< j-1
-#      return True
       if j == 0: #move left out of map
         return True
       else: #move up if not an obstacle   
